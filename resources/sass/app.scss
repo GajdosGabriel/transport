@@ -1,1 +1,20 @@
-//
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navBackground {
+    border-bottom: 1px solid #fff;
+    background: #000529;
+    background: -moz-linear-gradient(left, #000529 1%, #002055 24%, #005db5 67%, #0061c1 100%);
+    background: -webkit-linear-gradient(left, #000529 1%,#002055 24%,#005db5 67%,#0061c1 100%);
+    background: linear-gradient(to right, #000529 1%,#002055 24%,#005db5 67%,#0061c1 100%);
+}
+
+.shadow {
+    box-shadow: 0 8px 6px -6px #8d8d8d;
+}
