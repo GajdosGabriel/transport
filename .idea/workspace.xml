@@ -2,56 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91560294-190c-460b-8952-3c3890f6a0ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/LanguageMiddleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/language.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/aos/aos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/delivery-man.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/delivery-man2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/delivery.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/flag_en.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/flag_nl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/flag_sk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logo-iru.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logo-niwo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/transport-cars.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/video_en.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/aos/aos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/landing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/nl/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/nl/landing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/nl/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/nl/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/nl/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/nav.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/transport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/transport.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/video_nl.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/invest.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/video.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/landing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/nl/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/nl/landing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/nav.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,11 +157,15 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\www\transport\resources\views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\www\transport\resources\views" />
       <recent name="C:\www\transport\public\images" />
     </key>
   </component>
@@ -235,7 +201,7 @@
       <workItem from="1585583978067" duration="1220000" />
       <workItem from="1585591712535" duration="953000" />
       <workItem from="1585592918644" duration="439000" />
-      <workItem from="1585633065048" duration="2121000" />
+      <workItem from="1585633065048" duration="6018000" />
     </task>
     <servers />
   </component>
@@ -262,13 +228,13 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1865" height="271" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1585551195347" />
-    <state x="738" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585563773078">
+    <state x="738" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585638606794">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="738" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1585563773078" />
-    <state x="539" y="15" width="840" height="1034" key="search.everywhere.popup" timestamp="1585584366677">
+    <state x="738" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1585638606794" />
+    <state x="539" y="15" width="840" height="1034" key="search.everywhere.popup" timestamp="1585638343398">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="539" y="15" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1585584366677" />
+    <state x="539" y="15" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1585638343398" />
   </component>
 </project>

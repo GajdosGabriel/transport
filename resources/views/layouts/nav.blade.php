@@ -1,7 +1,9 @@
 <nav id="navbar" class="navbar navbar-dark navBackground navbar-expand-md shadow-sm sticky-top">
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
-            {{ config('app.name', 'Laravel') }}
+            {{-- {{ config('app.name', 'Laravel') }}--}}
+            <img style="width: 25%; background: white" src="{{ asset('images/transport-logo.png') }}">
+            
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             <span class="navbar-toggler-icon"></span>
@@ -18,23 +20,23 @@
                 <!-- Authentication Links -->
                 @guest
                     <li class="nav-item">
-                        <a class="nav-link" href="#delivery">Home delivery</a>
+                        <a class="nav-link" href="#customer">{{ __('landing.customer') }}</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#working">Working</a>
+                        <a class="nav-link" href="#delivery">{{ __('landing.home-delivery') }}</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#customer">Customers</a>
+                        <a class="nav-link" href="#working">{{ __('landing.working') }}</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#certification">Certification</a>
+                        <a class="nav-link" href="#certification">{{ __('landing.certification') }}</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#order">Order</a>
+                        <a class="nav-link" href="{{ route('invest') }}">{{ __('landing.invest') }}</a>
                     </li>
 
                     @if(App::getLocale() != 'en')

@@ -27,6 +27,11 @@ class HomeController extends Controller
         return view('home');
     }
 
+    public function invest()
+    {
+        return view('invest');
+    }
+
     public function lang($lang) {
 
         if (array_key_exists($lang, \Config::get('language'))) {
@@ -36,5 +41,9 @@ class HomeController extends Controller
         }
 
         return redirect('/');
+    }
+
+    public function registration() {
+        return view('registration');
     }
 }

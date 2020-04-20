@@ -29,6 +29,7 @@
             <body  data-spy="scroll" data-target="#navbar" data-offset="0">
             @include('layouts.nav')
             @yield('content')
+            @include('layouts.footer')
             </body>
         </main>
     </div>
@@ -41,5 +42,6 @@
             delay: 100,
         });
     </script>
+    @yield('script')
 </body>
 </html>
