@@ -22,17 +22,19 @@ return [
     'niwo-text2' => 'Creditworthiness, Reliability, Professional competence, Real establishment',
     'niwo-text3' => 'NIWO also issues driver certificates for non-EU drivers, ride authorizations and CEMT permits and issues the NIWO TIR Carnets. The NIWO also manages VIHB\'s list of waste collectors, transporters and mediators. Quality starts here, LD Transport helps you further!',
     'uri-title' => 'IRU Certificate',
-    'uri-text1' => 'Employees of Transport are highly trained and have a diploma / certificate from the IRU Academy. The International Road Transport Union also known as IRU is a global road transport organization. IRU maintains the interests of: Bus, Taxi, Trucks and more.',
+    'uri-text1' => 'Employees of LD Transport are highly trained and have a diploma / certificate from the IRU Academy. The International Road Transport Union also known as IRU is a global road transport organization. IRU maintains the interests of: Bus, Taxi, Trucks and more.',
     'uri-text2' => 'With this, IRU wants to guarantee economic growth and prosperity through the sustainable mobility of people and goods by road in the world.',
     'uri-text3' => 'The IRU Academy provides road transport courses and training worldwide. The IRU is active in improving the development of professional competence in the road transport sector. The IRU Academy ensures that we meet the priorities of the sustainable developments, facilities, safety and security of the road transport industry by means of high-quality courses, training courses, training programs and ensuring quality control of the training courses.',
 
     'invest-title' => 'Invest from 500, - GBP in home delivery service and earn 25% in 6 months’ time',
     'invest-text1' => 'Online food delivery has become more relevant than ever, following the government\'s strict advice for everyone to stay at home to help combat the spread of coronavirus.',
     'invest-text2' => 'With more people working from home or in self-isolation, it’s understandable that there has been a huge demand for online grocery delivery orders - in fact, government officials even suggested it in his address to the nation on all news channels.',
-    'invest-text3' => 'But it hasn\'t been easy to get a food delivery slot recently. The good news is that supermarkets have been working around the clock to speed up the supply chain, and we from LD have offer our service to this supermarket and need now extra cash to rent temporary electric transportation and hire people to keep up the demand.',
-    'invest-text4' => 'We give out a temporary promissory note for 6 months to invest in our product and will give you 25% interest on it. If the situation has not changed after these 6 months, we will offer all investors if they want to same conditions for another 6-month period.',
+    'invest-text3' => 'But it hasn\'t been easy to get a food delivery slot recently. The good news is that supermarkets have been working around the clock to speed up the supply chain, and we from LD Transport have offer our service to this supermarket and need now extra cash to rent temporary electric transportation and hire people to keep up the demand.',
+    'invest-text4' => 'We give out a temporary promissory note for 6 months to invest in our product and will give you 25% interest on it. If the situation has not changed after these 6 months, we will offer all investors if they want the same conditions for another 6-month period.',
     'order-title' => 'HOW TO ORDER',
     'order-step1' => ' Step 1: Fill in your details in the application form and study the promissory note agreement.',
     'order-step2' => ' Step 2: You will receive an email via Docusign with the promissory note agreement that you can sign digitally.',
     'order-step3' => 'Step 3: You send us a copy of your ID and you will receive the account details from us and after receiving the funds you will receive a digital certificate.',
+
+    'newsTitle' => 'NEWS',
 ];

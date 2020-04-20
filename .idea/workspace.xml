@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91560294-190c-460b-8952-3c3890f6a0ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/video_nl.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/invest.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/video.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news/news1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news/news2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news/news3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news/news4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/news/news5.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/transport-cars.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/transport-cars.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/en/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/landing.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/nl/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/nl/landing.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/nav.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/invest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/invest.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,16 +156,17 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/news" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\www\transport\resources\views" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\www\transport\public\images\news" />
       <recent name="C:\www\transport\resources\views" />
       <recent name="C:\www\transport\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\www\transport\resources\views" />
     </key>
   </component>
   <component name="RunManager">
@@ -202,6 +202,7 @@
       <workItem from="1585591712535" duration="953000" />
       <workItem from="1585592918644" duration="439000" />
       <workItem from="1585633065048" duration="6018000" />
+      <workItem from="1587361810141" duration="2426000" />
     </task>
     <servers />
   </component>

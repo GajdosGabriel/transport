@@ -35,4 +35,6 @@ return [
     'order-step1' => 'Stap 1: Vul uw gegevens in het aanvraag formulier en bestudeer de promissory note overeenkomst.',
     'order-step2' => 'Stap 2: U zult via Docusign een email onvantvangen met de promissory note overeenkomst die u digitaal kunt tekenen.',
     'order-step3' => 'Stap 3: U stuurt ons een copie van uw ID en u krijgt van ons de rekening gegevens en na ontvangst van de fondsen krijgt u een digitaal certificaat.',
+
+
 ];
