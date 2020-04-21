@@ -7,6 +7,9 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+//// AOS animation
+//@import "~aos/dist/aos.css";
+
 .navBackground {
     border-bottom: 1px solid #fff;
     background: #000529;
@@ -17,4 +20,11 @@
 
 .shadow {
     box-shadow: 0 8px 6px -6px #8d8d8d;
+}
+
+.calculator {
+    background: #002258;
+    padding: 18px;
+    color: white;
+    border-radius: 5px;
 }

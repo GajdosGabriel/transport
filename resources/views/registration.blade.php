@@ -1,15 +1,18 @@
-@extends('layouts.app')
+{{--@extends('layouts.app')--}}
 
-@section('content')
 
-    <div  id="order" class="container-fluid shadow" style="background: #d8e3ef">
-        <div class="container">
+{{--@section('navigation') @include('layouts.nav-invest') @endsection--}}
+
+
+@include('modals.prTacModal')
+<div  class="container shadow">
             <div class="row align-items-center">
 
-                <div class="card bg_secondary xs-mt-20 xs-mb-20 lg-mt-50 lg-mb-50">
+                <form method="POST" action="{{ route('postRegistration') }}">
+                    @csrf @method('POST')
+                    <div class="card bg_secondary xs-mt-20 xs-mb-20 lg-mt-50 lg-mb-50">
                     <div class="card-body" >
                         @include('form.errorList')
-
                         <div class="row">
                             <div class="col-xs-12 col-lg-6">
                                 @include('form.personal')
@@ -33,6 +36,8 @@
 
                                             <label class="custom-control-label" for="agree">
                                                 @lang('step1.read')
+                                                <a href="" data-toggle="modal" data-target="#prTacModal">@lang('contracts/pr.terms')</a>
+
                                                 {{--    @if(in_array(Auth::user()->id, config('cee.pr_clients')))
                                                        <a id="pr_modal" href="" data-toggle="modal" data-target="#prTacModal">@lang('member/invest/step1.prTaC')</a>
                                                        <a id="sp_modal" class="d-none" href="" data-toggle="modal" data-target="#spModal">@lang('member/invest/step1.spTac')</a>
@@ -52,12 +57,13 @@
                         </div>
                     </div>
                 </div>
+                </form>
 
             </div>
         </div>
     </div>
 
-@endsection
+
 
 
 

@@ -26,6 +26,7 @@ return [
     'govID' => 'Government ID number',
     'companyID' => 'Company ID number',
     'upload' => 'UPLOAD',
-    'selectFile' => 'Select file'
+    'selectFile' => 'Select file',
+    'close' => 'Close'
 
 ];

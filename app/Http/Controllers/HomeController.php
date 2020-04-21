@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\Order;
 use Illuminate\Http\Request;
 use Session;
 
@@ -45,5 +46,13 @@ class HomeController extends Controller
 
     public function registration() {
         return view('registration');
+    }
+
+    public function postRegistration(Request $request) {
+
+        \Mail::to('info@ld-transport.com')->send(new Order($request));
+
+        dd($request->all());
+
     }
 }

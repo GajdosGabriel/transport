@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('navigation') @include('layouts.nav')@endsection
+
 @section('content')
 
 {{--    heading--}}
@@ -23,7 +25,7 @@
     <div class="row align-items-center">
         <div class="col-lg-6 order-lg-2">
             <div data-aos="fade-down-left" class="py-5">
-                <img class="img-fluid img-thumbnail" src="{{ asset('images/transport-cars.png') }}" alt="">
+                <img class="img-fluid img-thumbnail" src="{{ asset('images/transport-cars.PNG') }}" alt="">
             </div>
         </div>
         <div class="col-lg-6 order-lg-1">

@@ -9,17 +9,23 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
+    <script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-{{--    <script src="{{ asset('js/aos/aos.js') }}" defer></script>--}}
+    <script src="{{ mix('js/app.js') }}" defer></script>
+
+    <script src="{{ mix('js/aos/aos.js') }}" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+{{--    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">--}}
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/aos/aos.css') }}" rel="stylesheet">
+    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+    <link href="{{ mix('css/aos/aos.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -27,7 +33,7 @@
 
         <main>
             <body  data-spy="scroll" data-target="#navbar" data-offset="0">
-            @include('layouts.nav')
+            @yield('navigation')
             @yield('content')
             @include('layouts.footer')
             </body>
@@ -42,6 +48,8 @@
             delay: 100,
         });
     </script>
+
     @yield('script')
+
 </body>
 </html>

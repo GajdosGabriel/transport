@@ -1,26 +1,14 @@
 <nav id="navbar" class="navbar navbar-dark navBackground navbar-expand-md shadow-sm sticky-top">
     <div class="container">
 
-
-        <a class="navbar-brand" href="{{ route('home') }}">
-            <img style="background: white;" src="{{ asset('images/transport-logo.png') }}">
+        <a class="navbar-brand" href="{{ url('/') }}">
+            {{-- {{ config('app.name', 'Laravel') }}--}}
+            <img style="background: white" src="{{ asset('images/transport-logo.png') }}">
         </a>
 
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler  navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             <span class="navbar-toggler-icon"></span>
         </button>
-
-
-
-{{--        <a class="navbar-brand" href="{{ url('/') }}">--}}
-{{--            --}}{{-- {{ config('app.name', 'Laravel') }}--}}
-{{--            <img style="width: 25%; background: white" src="{{ asset('images/transport-logo.png') }}">--}}
-{{--        </a>--}}
-
-{{--        <button class="navbar-toggler  navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">--}}
-{{--            <span class="navbar-toggler-icon"></span>--}}
-{{--        </button>--}}
 
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -34,19 +22,19 @@
                 <!-- Authentication Links -->
                 @guest
                     <li class="nav-item">
-                        <a class="nav-link" href="#customer">{{ __('landing.customer') }}</a>
+                        <a class="nav-link" href="{{ url('/') }}#customer">{{ __('landing.customer') }}</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#delivery">{{ __('landing.home-delivery') }}</a>
+                        <a class="nav-link" href="{{ url('/') }}#delivery">{{ __('landing.home-delivery') }}</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#working">{{ __('landing.working') }}</a>
+                        <a class="nav-link" href="{{ url('/') }}#working">{{ __('landing.working') }}</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#certification">{{ __('landing.certification') }}</a>
+                        <a class="nav-link" href="{{ url('/') }}#certification">{{ __('landing.certification') }}</a>
                     </li>
 
                     <li class="nav-item">

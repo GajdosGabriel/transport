@@ -22,4 +22,5 @@ Auth::routes();
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/invest', 'HomeController@invest')->name('invest');
 Route::get('/registration', 'HomeController@registration')->name('registration');
+Route::post('/registration', 'HomeController@postRegistration')->name('postRegistration');
 Route::get('/lang/{lang}', 'HomeController@lang')->name('lang');
