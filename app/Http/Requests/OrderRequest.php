@@ -13,7 +13,7 @@ class OrderRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,20 @@ class OrderRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'name' => 'required|string|max:30',
+            'surname' => 'required|string|max:50',
+            'street' => 'required|string|max:30',
+            'zip' => 'required|string|max:20',
+            'city' => 'required|string|max:50',
+            'region' => 'required|string|max:50',
+            'country' => 'required|string|max:3',
+            'nationality' => 'required|string|max:3',
+            'email' => 'required|email|max:70',
+            'government_id' => 'required|string|max:50',
+            'phone_code' => 'required|string|max:4',
+            'phone' => 'required|string|max:20',
+
+            'agree' => 'required|accepted'
         ];
     }
 }

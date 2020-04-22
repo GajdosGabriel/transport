@@ -54,7 +54,7 @@
 
 
 
-    <form method="POST" action="{{ route('postRegistration') }}">
+    <form method="POST" action="{{ route('order.store') }}">
         @csrf @method('POST')
     {{--  HOW TO ORDER --}}
     <div  id="order" class="container-fluid shadow pt-3" style="background: #d8e3ef; margin-top: -23px">
