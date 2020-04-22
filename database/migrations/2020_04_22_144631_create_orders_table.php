@@ -14,7 +14,7 @@ class CreateOrdersTable extends Migration
     public function up()
     {
         Schema::create('orders', function (Blueprint $table) {
-            $table->integer('id')->index();
+            $table->increments('id');
             $table->string('name', 30);
             $table->string('surname', 50);
             $table->string('street', 30);
@@ -27,7 +27,7 @@ class CreateOrdersTable extends Migration
             $table->string('government_id', 50);
             $table->string('phone_code', 4);
             $table->string('phone', 20);
-            $table->integer('promissory_note', 20);
+            $table->string('promissory_note', 20);
             $table->timestamps();
             $table->softDeletes();
         });
