@@ -6,6 +6,7 @@ New message from contact form.
 # ------ Client details ------
 
 Name: <strong>{{ $data['name'] }} {{ $data['surname'] }}</strong> <br>
+Promissory note: <strong>£ {{ $data['promissory_note'] }} </strong> <br>
 Street: {{ $data['street'] }} {{ $data['zip'] }} <br>
 City: {{ $data['city'] }} <br>
 Region: {{ $data['region'] }} <br>

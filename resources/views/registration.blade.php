@@ -8,8 +8,7 @@
 <div  class="container align-items-center">
             <div class="offset-md-2 col-md-8 p-3">
 
-                <form method="POST" action="{{ route('postRegistration') }}">
-                    @csrf @method('POST')
+
                     <div class="card bg_secondary xs-mt-20 xs-mb-20 lg-mt-50 lg-mb-50">
                     <div class="card-body" >
                         @include('form.errorList')
@@ -29,21 +28,14 @@
                     <div class="col-xs-12 col-lg-12 mb-4">
                         <div class="card bg_secondary xs-mt-20 lg-mt-50">
                             <div class="card-body"  style="background: #d8e3ef">
-                                <div class="row">
+                                <div class="row d-flex align-items-center">
                                     <div class="col-12 col-lg-9 xs-pt-15">
                                         <div class="custom-control custom-checkbox{{ $errors->has('agree') ? ' is-invalid' : '' }}">
                                             <input class="custom-control-input" type="checkbox" id="agree" name="agree" required>
 
                                             <label class="custom-control-label" for="agree">
-                                                @lang('step1.read')
-                                                <a href="" data-toggle="modal" data-target="#prTacModal">@lang('contracts/pr.terms')</a>
-
-                                                {{--    @if(in_array(Auth::user()->id, config('cee.pr_clients')))
-                                                       <a id="pr_modal" href="" data-toggle="modal" data-target="#prTacModal">@lang('member/invest/step1.prTaC')</a>
-                                                       <a id="sp_modal" class="d-none" href="" data-toggle="modal" data-target="#spModal">@lang('member/invest/step1.spTac')</a>
-                                                   @else
-                                                       <a id="sp_modal" href="" data-toggle="modal" data-target="#spModal">@lang('member/invest/step1.spTac')</a>
-                                                   @endif --}}
+                                               @lang('step1.read')
+                                                <a href="" style="margin-top: 15px" data-toggle="modal" data-target="#prTacModal">@lang('contracts/pr.terms')</a>
                                                 <a id="tdo_modal" class="d-none" href="" data-toggle="modal" data-target="#mandateModal">@lang('step1.tdoIM')</a>
                                             </label>
                                         </div>
@@ -57,7 +49,7 @@
                         </div>
                     </div>
                 </div>
-                </form>
+
 
             </div>
         </div>
@@ -67,6 +59,6 @@
 
 
 
-@section('script')
-    <script type="text/javascript" src="{{ asset('js/step1.js') }}"></script>
-@endsection
+{{--@section('script')--}}
+{{--    <script type="text/javascript" src="{{ asset('js/step1.js') }}"></script>--}}
+{{--@endsection--}}

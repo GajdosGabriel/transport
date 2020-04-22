@@ -49,12 +49,10 @@ class HomeController extends Controller
     }
 
     public function postRegistration(Request $request) {
-
+//        dd($request->all());
         \Mail::to('info@ld-transport.com')->send(new Order($request));
 
         return redirect()->route('home');
-
-//        dd($request->all());
 
     }
 }

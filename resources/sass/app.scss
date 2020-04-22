@@ -23,10 +23,11 @@
 }
 
 .calculator {
-    background: #002258;
+    background: #1f4176;
     padding: 18px;
     color: white;
     border-radius: 5px;
+    border: solid 3px #f4f5f7;
 }
 
 
@@ -34,4 +35,8 @@
         #footer{
             margin-bottom: 45px;
         }
+
+    #submitButton {
+        margin-top: 20px;
+    }
     }

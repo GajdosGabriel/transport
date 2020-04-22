@@ -33,7 +33,7 @@ return [
     'invest-text4' => 'We give out a temporary promissory note for 6 months to invest in our product and will give you 25% interest on it. If the situation has not changed after these 6 months, we will offer all investors if they want the same conditions for another 6-month period.',
     'order-title' => 'HOW TO INVEST',
     'order-step1' => ' Step 1: Fill in your details in the application form and study the promissory note agreement.',
-    'order-step2' => ' Step 2: You will receive an email via Docusign with the promissory note agreement that you can sign digitally.',
+    'order-step2' => ' Step 2: You will receive an email via <a target="_blank" href="https://support.docusign.com/articles/How-do-I-sign-a-DocuSign-document-Basic-Signing"> Docusign</a> with the promissory note agreement that you can sign digitally.',
     'order-step3' => 'Step 3: You send us a copy of your ID and you will receive the account details from us.',
 
     'newsTitle' => 'NEWS',
