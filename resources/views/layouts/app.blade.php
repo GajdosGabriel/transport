@@ -50,6 +50,7 @@
     </script>
 
     @yield('script')
-
+@include('include.chat')
+@include('include.google')
 </body>
 </html>

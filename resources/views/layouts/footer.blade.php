@@ -17,9 +17,9 @@
         </div>
 
 
-        <div class="row align-items-center">
+        <div id="footer" class="row align-items-center">
             {{--  Part A--}}
-            <div class="col-lg-12">
+            <div  class="col-12">
                 <div class="mt-4 text-center pb-3" style="color: silver">
                     <strong>LD Transport LTD</strong>
                     <span>71-75 Shelton Street, Covent Garden, WC2H 9JQ London, UK</span>

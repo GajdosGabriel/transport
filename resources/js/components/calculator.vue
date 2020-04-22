@@ -1,9 +1,6 @@
 
 <script>
     import numeral from "numeral";
-    Vue.filter("formatNumber", function (value) {
-        return numeral(value).format("0,0"); // displaying other groupings/separators is possible, look at the docs
-    });
     export default{
         data: function() {
             return {
@@ -19,7 +16,7 @@
             },
 
             cal_month() {
-                return this.profit / 6
+                return numeral(this.profit / 6).format('0.00')
             }
         },
          filters: {

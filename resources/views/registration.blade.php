@@ -5,8 +5,8 @@
 
 
 @include('modals.prTacModal')
-<div  class="container shadow">
-            <div class="row align-items-center">
+<div  class="container align-items-center">
+            <div class="offset-md-2 col-md-8 p-3">
 
                 <form method="POST" action="{{ route('postRegistration') }}">
                     @csrf @method('POST')
@@ -14,15 +14,15 @@
                     <div class="card-body" >
                         @include('form.errorList')
                         <div class="row">
-                            <div class="col-xs-12 col-lg-6">
+                            <div class="col-xs-12 col-lg-126">
                                 @include('form.personal')
                             </div>
 
-                            <div class="col-xs-12 col-lg-6">
-                                @include('form.company')
+{{--                            <div class="col-xs-12 col-lg-6">--}}
+{{--                                @include('form.company')--}}
 
-                                @include('form.joint')
-                            </div>
+{{--                                @include('form.joint')--}}
+{{--                            </div>--}}
 
                         </div>
                     </div>

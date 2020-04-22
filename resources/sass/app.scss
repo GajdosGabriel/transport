@@ -28,3 +28,10 @@
     color: white;
     border-radius: 5px;
 }
+
+
+@media (max-width: 699px)  {
+        #footer{
+            margin-bottom: 45px;
+        }
+    }

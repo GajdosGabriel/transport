@@ -52,7 +52,9 @@ class HomeController extends Controller
 
         \Mail::to('info@ld-transport.com')->send(new Order($request));
 
-        dd($request->all());
+        return redirect()->route('home');
+
+//        dd($request->all());
 
     }
 }
