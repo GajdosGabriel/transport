@@ -82,6 +82,4 @@
 
 @endsection
 
-@section('script')
-    <script type="text/javascript" src="{{ mix('js/step1.js') }}"></script>
-@endsection
+
