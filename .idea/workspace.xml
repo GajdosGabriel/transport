@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91560294-190c-460b-8952-3c3890f6a0ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/OrderRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/OrderRequest.php" afterDir="false" />
-    </list>
+    <list default="true" id="91560294-190c-460b-8952-3c3890f6a0ad" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="order" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -219,7 +216,7 @@
       <workItem from="1587574292294" duration="589000" />
       <workItem from="1587575294976" duration="1657000" />
       <workItem from="1587616783853" duration="20000" />
-      <workItem from="1587621705110" duration="1039000" />
+      <workItem from="1587621705110" duration="347000" />
     </task>
     <servers />
   </component>
@@ -258,25 +255,13 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1865" height="271" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1585551195347" />
-    <state x="184" y="93" key="MergeDialog" timestamp="1587640275254">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="184" y="93" key="MergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1587640275254" />
-    <state x="606" y="171" key="MultipleFileMergeDialog" timestamp="1587640275260">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="606" y="171" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1587640275260" />
     <state x="738" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585638606794">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="738" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1585638606794" />
-    <state x="712" y="170" key="git4idea.branch.GitSmartOperationDialog" timestamp="1587640262773">
+    <state x="539" y="15" width="840" height="1034" key="search.everywhere.popup" timestamp="1587458178738">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="712" y="170" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1587640262773" />
-    <state x="539" y="15" width="840" height="1034" key="search.everywhere.popup" timestamp="1587640349984">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="539" y="15" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1587640349984" />
+    <state x="539" y="15" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1587458178738" />
   </component>
 </project>
