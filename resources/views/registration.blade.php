@@ -12,7 +12,7 @@
                     <div class="card bg_secondary xs-mt-20 xs-mb-20 lg-mt-50 lg-mb-50">
                     <div class="card-body" >
                         @include('form.errorList')
-                        <div class="row">
+{{--                        <div class="row">--}}
                             <div class="col-xs-12 col-lg-126">
                                 @include('form.personal')
                             </div>
@@ -23,7 +23,7 @@
 {{--                                @include('form.joint')--}}
 {{--                            </div>--}}
 
-                        </div>
+{{--                        </div>--}}
                     </div>
                     <div class="col-xs-12 col-lg-12 mb-4">
                         <div class="card bg_secondary xs-mt-20 lg-mt-50">
