@@ -22,32 +22,6 @@
 
         </div>
     </div>
-{{--    <div  id="order" class="container-fluid shadow" style="background: #d8e3ef">--}}
-{{--        <div class="container">--}}
-{{--            <div class="row align-items-center">--}}
-
-{{--                --}}{{--  Part B--}}
-{{--                <div class="col-lg-6">--}}
-{{--                    <div class="mt-3">--}}
-{{--                        <h2 class="display-5">Video presentation</h2>--}}
-{{--                     @include('video')--}}
-
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                --}}{{--  Part A--}}
-{{--                <div class="col-lg-6">--}}
-{{--                    <div class="mt-3">--}}
-{{--                        <h2 class="display-5">{{ __('landing.invest-title') }}</h2>--}}
-{{--                        <p>{{ __('landing.invest-text1') }}</p>--}}
-{{--                        <p>{{ __('landing.invest-text2') }}</p>--}}
-{{--                        <p>{{ __('landing.invest-text3') }}</p>--}}
-{{--                        <p>{{ __('landing.invest-text4') }}</p>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-
 
     {{--    NEWS    --}}
     @include('news')
@@ -76,7 +50,7 @@
     </div>
     </div>
 
-    @include('registration')
+    @include('form.order_form')
 
     </form>
 
