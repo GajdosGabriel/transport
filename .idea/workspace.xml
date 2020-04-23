@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91560294-190c-460b-8952-3c3890f6a0ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/form/order_form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/recaptcha.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/transport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/transport.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/invest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/invest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +226,7 @@
       <workItem from="1587574292294" duration="589000" />
       <workItem from="1587575294976" duration="1657000" />
       <workItem from="1587616783853" duration="20000" />
-      <workItem from="1587621705110" duration="347000" />
+      <workItem from="1587621705110" duration="1039000" />
     </task>
     <servers />
   </component>

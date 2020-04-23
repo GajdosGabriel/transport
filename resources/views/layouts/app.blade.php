@@ -26,6 +26,7 @@
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <link href="{{ mix('css/aos/aos.css') }}" rel="stylesheet">
+    @yield('recaptcha')
 </head>
 <body>
     <div id="app">
