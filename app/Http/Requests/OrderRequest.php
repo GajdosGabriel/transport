@@ -24,6 +24,7 @@ class OrderRequest extends FormRequest
     public function rules()
     {
         return [
+            // Personal details
             'name' => 'required|string|max:30',
             'surname' => 'required|string|max:50',
             'street' => 'required|string|max:30',
@@ -36,6 +37,19 @@ class OrderRequest extends FormRequest
             'government_id' => 'required|string|max:50',
             'phone_code' => 'required|string|max:4',
             'phone' => 'required|string|max:20',
+
+//            // Company details
+//            'company.name' => 'required_if:company.details,on|string|max:100',
+//            'company.id_number' => 'required_if:company.details,on|string|max:50',
+//            'company.street' => 'required_if:company.details,on|string|max:30',
+//            'company.zip' => 'required_if:company.details,on|string|max:20',
+//            'company.city' => 'required_if:company.details,on|string|max:50',
+//            'company.region' => 'required_if:company.details,on|string|max:50',
+//            'company.country' => 'required_if:company.details,on|string|max:3',
+//
+//            // Joint details
+//            'joint.name' => 'required_if:joint.details,on|string|max:80',
+//            'joint.id' => 'required_if:joint.details,on|string|max:50',
 
             'agree' => 'required|accepted'
         ];
