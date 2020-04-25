@@ -14,7 +14,7 @@ class OrderController extends Controller
         Order::create($request->except('agree'));
 
 //        dd($request->all());
-//        \Mail::to('info@ld-transport.com')->send(new Order($request));
+        \Mail::to('info@ld-transport.com')->send(new Order($request));
 
         return redirect()->route('home');
 

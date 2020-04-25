@@ -30,7 +30,7 @@
         </div>
         <div class="col-lg-6 order-lg-1">
             <div class="py-5">
-                <h2 data-aos="fade-down-left" class="display-5">{{ __('landing.business-title') }}</h2>
+                <h2 data-aos="zoom-in" class="display-5">{{ __('landing.business-title') }}</h2>
                 <p>{{ __('landing.business-text1') }}</p>
                 <p>{{ __('landing.business-text2') }}</p>
             </div>
